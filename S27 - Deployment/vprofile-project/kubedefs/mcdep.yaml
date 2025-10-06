@@ -6,10 +6,9 @@ metadata:
     app: vpromc
 spec:
   replicas: 1
-  spec:
-    selector:
-      matchLabels:
-        app: vpromc
+  selector:
+    matchLabels:
+      app: vpromc
   template:
     metadata:
       labels:
